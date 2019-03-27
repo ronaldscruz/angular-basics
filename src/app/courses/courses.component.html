@@ -1,0 +1,11 @@
+
+  <h2> Courses available: {{ courses.length }} </h2>
+  <ul>
+    <li *ngFor="let course of courses">
+       <strong> {{ course.name }} </strong>
+       <p> Duration: {{ course.duration }} hours</p>
+       <br>
+    </li>
+  </ul>
+
+
